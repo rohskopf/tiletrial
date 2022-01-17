@@ -90,7 +90,7 @@ std::vector<string> Functions::task2(string& str)
 }
 
 /*
-Task 2 - Uses vector<string> the substr function to create the tiles.
+Task 3 - Uses vector<string> the substr function to create the tiles.
 */
 std::vector<string> Functions::task3(string& str)
 {
