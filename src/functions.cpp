@@ -1,7 +1,5 @@
 /*
-This class post processes simulation data to analyze the modes.
-Current functions include:
-
+This class houses the functions used to tile the sequence.
 */
 
 #include <string>
