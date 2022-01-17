@@ -28,6 +28,16 @@ where
 
 The program then outputs `TILES` which contain the tiles of the string in `SEQUENCE`.
 
+### Current Functions
+
+```cpp
+int main() {
+  int y = SOME_MACRO_REFERENCE;
+  int x = 5 + 6;
+  cout << "Hello World! " << x << std::endl();
+}
+```
+
 ### Examples
 
 Go to `examples` and generate a sequence with 10 million characters:
