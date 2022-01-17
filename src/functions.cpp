@@ -43,7 +43,7 @@ Task 1 - allocates a custom "Container" class which houses the tiles as char* ar
 Container* Functions::task1(string& str)
 {
   
-  // Declare a pointer to container which will house the tiles.
+  // Declare a pointer to custom container which will house the tiles.
   Container *container;
     
   // Allocate container of tiles
