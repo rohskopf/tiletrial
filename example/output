@@ -1,0 +1,9 @@
+ +-----------------------------------------------------------------+
+ +                          TileTrial 0.0                          +
+ +-----------------------------------------------------------------+
+ Will use functions->task3
+ Tile length (k): 100
+ Original sequence length (seqlen): 10000000
+ Length of list/vector of tiles (ntiles): 9999901
+  Time Elapsed: 0.981133 sec.
+
