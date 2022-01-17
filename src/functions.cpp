@@ -48,12 +48,6 @@ Container* Functions::task1(string& str)
     
   // Allocate container of tiles
   memory->allocate(container, ntiles);
-  // Allocate the tiles inside container
-  /*
-  for (int i=0; i<ntiles; i++){
-      memory->allocate(container[i].tile,k);
-  }
-  */
   
   // Perform the tiling
   int indx=0;
