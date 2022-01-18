@@ -2,6 +2,8 @@
 
 Comparing the performance of different methods of tiling a sequence (e.g. DNA sequence).
 
+TileTrial is a framework for comparing the performance of different functions for a *tiling* operation.
+
 A tiling operation is like this: given a string, return a "tile" of that string which is a substring of length `k`. The tiles serve as windows of the original string, shifted by 1.
 
 ## Installing TileTrial
