@@ -58,6 +58,50 @@ Container* Functions::task1(string& str)
 }
 ```
 
+#### Task 2
+
+Task 2 uses `vector<string>` since `std::vector` is a built-in container for any type in the standard library. During the tiling operation, we use the `push_back` function for strings, which is slower than Task 1, but it works.
+
+```cpp
+std::vector<string> Functions::task2(string& str)
+{
+
+  // Declare the vector of tiles (strings) with proper number of tiles
+  vector<string> vec(ntiles);
+  
+  // Perform the tiling
+  for (int i=0; i<ntiles; i++){
+    for (int j=0; j<k; j++){
+      vec[i].push_back(str[i+j]);
+    }
+  }
+  
+  return vec;
+  
+}
+```
+
+#### Task 3
+
+Task 3 uses `vector<string>`, like Task 2, but instead of using the slow `push_back` function we use `substr`, which is much faster because of pre-allocation that happens under the hood.
+
+```cpp
+std::vector<string> Functions::task3(string& str)
+{
+
+  // Declare the vector of tiles (strings) with proper number of tiles
+  vector<string> vec(ntiles);
+  
+  // Perform the tiling
+  for (int i=0; i<ntiles; i++){
+    vec[i] = str.substr(i,k);
+  }
+  
+  return vec;
+  
+}
+```
+
 ## Examples
 
 Go to `examples` and generate a sequence with 10 million characters:
