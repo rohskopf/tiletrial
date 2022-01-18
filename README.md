@@ -28,7 +28,7 @@ where
 - `k` is the length of the tiles.
 - `seqlen` is the length of the original sequence.
 
-The program then outputs `TILES` which contain the tiles of the string in `SEQUENCE`.
+The program then has two outputs of interest: (1) `TILES` which contain the tiles of the string in `SEQUENCE`, and (2) the elapsed time which can be used to compare the performance of different functions (tasks).
 
 ## Current Functions
 
