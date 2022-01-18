@@ -30,6 +30,8 @@ The program then outputs `TILES` which contain the tiles of the string in `SEQUE
 
 ## Current Functions
 
+#### Task 1
+
 Task 1 uses the custom `Container` class, which houses a `char` array. We declare a pointer to the `Container` class, and then allocate its memory to equal the number of tiles, using our custom `Memory` class. Then the tiling operation is performed.
 ```cpp
 Container* Functions::task1(string& str)
