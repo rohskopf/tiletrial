@@ -34,7 +34,7 @@ The program then has two outputs of interest: (1) `TILES` which contain the tile
 
 #### Task 1
 
-Task 1 uses the custom `Container` class, which houses a `char` array. We declare a pointer to the `Container` class, and then allocate its memory to equal the number of tiles, using our custom `Memory` class [located here](https://github.com/rohskopf/tiletrial/blob/9b881416397595e079908c60b2511649f40e8919/src/memory.h#L16-L30). Then the tiling operation is performed.
+Task 1 uses the custom `Container` class, which houses a `char` array. We declare a pointer to the `Container` class. We then allocate its memory to equal the number of tiles, using our custom `Memory` class, specifically the general allocation function [located here](https://github.com/rohskopf/tiletrial/blob/9b881416397595e079908c60b2511649f40e8919/src/memory.h#L16-L30). Then the tiling operation is performed.
 ```cpp
 Container* Functions::task1(string& str)
 {
