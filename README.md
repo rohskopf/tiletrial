@@ -110,11 +110,15 @@ Go to `examples` and generate a sequence with 10 million characters:
 
     python gen_sequence.py 10000000
     
-Now run `tiletrial` using one of the existing 3 tasks:
+Now run `tiletrial` using one of the existing 3 tasks, e.g. Task 1 with `k=100` and a `10^7` length string:
 
     tiletrial 1 100 10000000
     
-Record the time and run using the other tasks to compare.
+TileTrial will then produce an output like:
+
+    Time Elapsed: 5.01 sec.
+
+Run this a few times with different tasks, record the average time, then and run using the other tasks to compare.
 
 ## Extending TileTrial (Adding New Functions to Compare)
 
