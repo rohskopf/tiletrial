@@ -42,7 +42,7 @@ Container* Functions::task1(string& str)
   // Declare a pointer to custom container which will house the tiles (see container.cpp)
   Container *container;
     
-  // Allocate container of tiles
+  // Allocate container of tiles using the custom memory template (see memory.cpp)
   memory->allocate(container, ntiles);
   
   // Perform the tiling
