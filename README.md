@@ -118,7 +118,7 @@ TileTrial will then produce an output like:
 
     Time Elapsed: 5.01 sec.
 
-Run this a few times with different tasks, record the average time, then and run using the other tasks to compare.
+Run this a few times with different tasks, record the average time, and repeat using other tasks to compare. We could automate this procedure with a bash/python script to quickly compare the performance of different tasks.
 
 ## Extending TileTrial (Adding New Functions to Compare)
 
