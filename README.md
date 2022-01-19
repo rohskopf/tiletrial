@@ -39,7 +39,7 @@ Task 1 uses the custom `Container` class, which houses a `char` array. We declar
 Container* Functions::task1(string& str)
 {
   
-  // Declare a pointer to custom container which will house the tiles.
+  // Declare a pointer to custom container which will house the tiles (see container.cpp)
   Container *container;
     
   // Allocate container of tiles
