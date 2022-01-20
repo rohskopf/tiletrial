@@ -116,7 +116,7 @@ Now run `tiletrial` using one of the existing 3 tasks, e.g. Task 1 with `k=100` 
     
 TileTrial will then produce an output like:
 
-    Time Elapsed: 5.01 sec.
+    Time Elapsed: 1.42 sec.
 
 Run this a few times with different tasks, record the average time, and repeat using other tasks to compare. We could automate this procedure with a bash/python script to quickly compare the performance of different tasks.
 
