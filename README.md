@@ -1,6 +1,6 @@
 # TileTrial
 
-Comparing the performance of different methods of tiling a sequence (e.g. DNA sequence).
+A program for benchmarking and comparing the performance of different methods for tiling a sequence (e.g. DNA sequence).
 
 TileTrial is a framework for comparing the performance of different functions for a *tiling* operation.
 
